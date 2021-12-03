@@ -7,4 +7,12 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'events';
+
+  public Contacts = " ";
+  
+  showContacts(event:any): void {
+    
+    this.Contacts = "911";
+  }
+
 }
